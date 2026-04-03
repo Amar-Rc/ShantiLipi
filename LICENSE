@@ -1,0 +1,37 @@
+ShantiLipi is released under the GNU General Public License version 3 
+(or later) with the Font Exception.
+
+---------------------------------------------------------------------------
+FONT EXCEPTION
+
+As a special exception, if you create a document which uses this font, 
+and embed this font or unaltered portions of this font into the document, 
+this font does not by itself cause the resulting document to be covered by 
+the GNU General Public License. This exception does not however invalidate 
+any other reasons why the document might be covered by the GNU General 
+Public License. If you modify this font, you may extend this exception to 
+your version of the font, but you are not obligated to do so. If you do 
+not wish to do so, delete this exception statement from your version.
+
+---------------------------------------------------------------------------
+
+The full text of the GNU General Public License version 3 is available at:
+https://www.gnu.org/licenses/gpl-3.0.html
+
+---------------------------------------------------------------------------
+
+This font is derived from GNU FreeSerif, which is part of the GNU FreeFont 
+project. The original FreeSerif font is Copyright (c) 2004-2024 Free 
+Software Foundation, Inc.
+
+Modifications for the ShantiLipi project include:
+- Subsetting to Bengali + Vedic Extensions
+- ba/va distinction (U+09F0 conjunct rules cloned from U+09AC)
+- Removal of non-standard _ya_trad ligatures for standard Bengali য-phala rendering
+- Addition of হ্ন conjunct support via psts feature
+- Scaled and repositioned Vedic accent marks (udatta, anudatta, double svarita)
+- Matra-aware GPOS mark positioning (clears ি ী ৈ ৌ above, ু ূ ৃ র-phala below)
+- Added anudatta to MarkToBase lookup for Bengali consonant bases
+- Em dash and en dash inclusion
+- Adjusted line metrics for Vedic mark headroom
+- Font renaming and metadata updates
