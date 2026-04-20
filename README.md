@@ -35,14 +35,6 @@ In traditional Sanskrit-in-Bengali typesetting, ब (ba) and व (va) are distin
 
 **Linux**: Copy to `~/.fonts/` or `/usr/share/fonts/truetype/shantilipi/` then run `fc-cache -fv`
 
-## Features
-
-- Full Bengali Unicode coverage (95 codepoints)
-- ba/va distinction: ৰ (U+09F0) for ব (ba), ব (U+09AC) for va
-- 40+ conjuncts including ন্ত্র, স্ম, স্প, স্ফ, হ্ন
-- 16 Vedic accent marks (udatta, anudatta, double svarita, etc.)
-- Smart anudatta positioning (adjusts above/below matras)
-- Em and en dashes
 
 ## Usage with XeLaTeX
 
